@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Котодім</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="page-header">
+            <a href="#" class="site-logo"><img src="./images/cat-logo.svg" alt="логотип сайту" width="24"
+                    height="24">Котодім</a>
+            <button class="btn-menu" aria-controls="menu-container" data-menu-button aria-expanded="false">
+                <svg class="icon-menu" width="37" height="37" aria-label="switcher mobile menu">
+                    <use href="./images/symbol-defs.svg#icon-menu"></use>
+                </svg>
+                <svg class="icon-close" width="26" height="26" aria-label="switcher mobile menu">
+                    <use href="./images/symbol-defs.svg#icon-close"></use>
+                </svg>
+            </button>
+            <div class="menu-container" id="menu-container" data-menu>
+                <nav class="page-nav" data-target>
+                    <a href="#">Обрати котика</a>
+                    <a href="#">Задонатити котикам</a>
+                    <a href="#">Контакти</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="hero" style="background-image: url('./images/hero-img.jpg');">
+                <div class="greeting">
+                    <h1 class="header-title">Привіт, людино</h1>
+                    <p>Бракує в житті шовкових лапок, м’якенького пухнастого животика, теплого
+                        муррркотіння й веселого розгардіяшу? <br /> Візьми собі
+                        котика.</p>
+                </div>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Ці друзяки готові приймати твою любов і піклування</h2>
+                <ul class="cat-list">
+                    <li>
+                        <a class="cat-link" href="#">
+                            <img src="./images/picture-2.jpg" alt="">
+                            <div class="content">
+                                <h3>Барбарис</h3>
+                                <p class="section-text">Хижий для ворогів, ласкавий та м’якесенький до своїх.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="cat-link" href="#">
+                            <img src="./images/picture-1.jpg" alt="">
+                            <div class="content">
+                                <h3>Мишка</h3>
+                                <p class="section-text">Киця з роду котів-талісманів. Несе удачу та затишок в дім.</p>
+                            </div>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="cat-link" href="#">
+                            <img src="./images/picture.jpg" alt="">
+                            <div class="content">
+                                <h3>Капітан</h3>
+                                <p class="section-text">Всюди головний. Підкорить тебе, але ти будеш щасливий.</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </section>
+            <section class="section">
+                <h2 class="section-title">Котики, які вже знайшли сім’ю</h2>
+                <p class="section-text">Ти тільки поглянь, скільки ніжності! <br /> На місці цих задоволених людей можеш
+                    бути ти.
+                </p>
+                <ul class="gallery">
+                    <li>
+                        <a href="#"><img src="./images/g-1.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-2.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-3.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-4.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-5.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-6.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-7.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-8.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-9.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-10.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-11.jpg" alt="galery item"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="./images/g-12.jpg" alt="galery item"></a>
+                    </li>
+                </ul>
+            </section>
+        </main>
+    </div>
+    <footer class="page-footer">
+        <div class="footer-container container">
+            <div class="logo-holder">
+                <img class="footer-logo" src="./images/cat-logo.svg" alt="логотип сайту" width="24">
+                <p class="footer-text">
+                    Котики — то щастя. <br /> Забирай, люби й ставай щасливішим.
+                </p>
+            </div>
+            <div class="social">
+                <strong class="social-title">Соцмережі</strong>
+                <ul class="social-list">
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg class="social-svg">
+                                <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg class="social-svg">
+                                <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg class="social-svg">
+                                <use href="./images/symbol-defs.svg#icon-youtube"></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-item">
+                        <a href="#" class="social-link">
+                            <svg class="social-svg">
+                                <use href="./images/symbol-defs.svg#icon-tiktok"></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/menu-button.js"></script>
+</body>
+
+</html>
